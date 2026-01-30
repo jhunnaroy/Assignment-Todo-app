@@ -16,7 +16,7 @@ const app = express();
 
 
 app.use(cors({
-  origin: "https://assignment-todo-app-frontend1.onrender.com/",
+  origin: "https://assignment-todo-app-frontend1.onrender.com",
   credentials: true
 }));
 app.use(express.json());
