@@ -15,11 +15,21 @@ const app = express();
 
 
 
-app.use(cors({
-  origin: "https://assignment-todo-app-frontend1.onrender.com",
-  credentials: true
-}));
+
+
+app.use(
+  cors({
+    origin: [
+      "http://localhost:5173",
+      "https://assignment-todo-app-frontend1.onrender.com"
+    ],
+    credentials: true
+  })
+);
+
 app.use(express.json());
+
+
 
 
 connectDB();
