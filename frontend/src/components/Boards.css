@@ -1,0 +1,92 @@
+
+.boards-container {
+  width: 650px;
+  margin: 40px auto;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  font-family: Arial, sans-serif;
+}
+
+
+.boards-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #111827;
+}
+
+
+.board-create {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.board-create input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+}
+
+.board-create button {
+  padding: 10px 16px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.board-create button:hover {
+  background-color: #1d4ed8;
+}
+
+
+.board-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f9fafb;
+  padding: 10px 12px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  border: 1px solid #e5e7eb;
+}
+
+.board-btn {
+  flex: 1;
+  background: none;
+  border: none;
+  text-align: left;
+  font-size: 15px;
+  cursor: pointer;
+  color: #111827;
+}
+
+.board-btn:hover {
+  color: #2563eb;
+}
+
+.board-delete {
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.board-delete:hover {
+  background-color: #dc2626;
+}
+
+
+.boards-container hr {
+  margin: 20px 0;
+  border: none;
+  border-top: 1px solid #e5e7eb;
+}
