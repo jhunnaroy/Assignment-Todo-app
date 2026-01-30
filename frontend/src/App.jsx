@@ -29,7 +29,7 @@ function App() {
       )}
 
       <Routes>
-        {/* DEFAULT → REGISTER */}
+        
         <Route
           path="/"
           element={
@@ -37,7 +37,7 @@ function App() {
           }
         />
 
-        {/* LOGIN */}
+        
         <Route
           path="/login"
           element={
@@ -49,7 +49,7 @@ function App() {
           }
         />
 
-        {/* REGISTER */}
+        
         <Route
           path="/register"
           element={
@@ -57,7 +57,7 @@ function App() {
           }
         />
 
-        {/* BOARDS (PROTECTED) */}
+        
         <Route
           path="/boards"
           element={

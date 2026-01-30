@@ -18,7 +18,7 @@ const Register = () => {
     try {
       await API.post("/auth/register", { name, email, password });
       alert("Registration successful. Please login.");
-      navigate("/login");   // 👉 Redirect to Login
+      navigate("/login");   
     } catch (error) {
       alert(error.response?.data?.message || "Registration failed");
     }

@@ -90,7 +90,7 @@ const Boards = () => {
         ))}
       </div>
 
-      {/* Todos */}
+      
       {selectedBoard && <Todos board={selectedBoard} />}
     </div>
   );
